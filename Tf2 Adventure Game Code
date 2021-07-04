@@ -1,0 +1,232 @@
+playSound("1.-Main-Theme.mp3", true);
+onEvent("2Fort", "click", function() {
+  setScreen("BluEngiScene");
+});
+onEvent("Run", "click", function(){
+setScreen("EngiRunpastfail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("RetryEngi", "click", function(){
+setScreen("startScreen");
+});
+onEvent("Fight", "click", function(){
+setScreen("FightingEngi");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("RestartEngi", "click", function(){
+setScreen("startScreen");
+});
+onEvent("Aid", "click", function(){
+setScreen("EngineerDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("EngiContinue", "click", function(){
+setScreen("BluPyroScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("PyroFight", "click", function(){
+setScreen("PyroDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("PyroRunPast", "click", function(){
+setScreen("PyroRunpastfail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("PyroRunpastRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("PyroAid", "click", function(){
+setScreen("PyroCallforHelpFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("PyroCallforHelpRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("PyroContinue", "click", function(){
+setScreen("BluScoutScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("ScoutFight", "click", function(){
+setScreen("ScoutDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("ScoutContinue", "click", function(){
+playSound("sound://category_movement/walk_loop.mp3");
+setScreen("Heavy&MedicScene");
+});
+onEvent("ScoutAid", "click", function(){
+setScreen("ScoutAidFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("ScoutCallForHelpRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("ScoutRunPast", "click", function(){
+setScreen("ScoutRunPastFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("ScoutRunPastRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("HeavyMedicFight", "click", function(){
+setScreen("HeavyMedicFightFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("HeavyMedicFightRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("HeavyMedicRunPast", "click", function(){
+setScreen("Heavy&MedicDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("HeavyMedicAid", "click", function(){
+setScreen("HeavyMedicAidFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("HeavyMedicAidRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("HeavyMedicContinue", "click", function(){
+setScreen("BlueIntelScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("Sewerway", "click", function(){
+setScreen("Gothroughsewers");
+playSound("sound://category_nature/south_carolina_beach_ripple.mp3");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("SewerContinue", "click", function(){
+playSound("sound://category_female_voiceover/mission_completed_female.mp3");
+setScreen("SuccessScene");
+});
+onEvent("SuccessRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("Bridgeway", "click", function(){
+setScreen("Bridgewayfail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("bridgeRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("Hideway", "click", function(){
+setScreen("GoHideSceneFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("GoHideRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("DoubleCross", "click", function(){
+setScreen("BluSoldierScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("SoldierFight", "click", function(){
+setScreen("FightingSoldierFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("SoldierFightRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SoldierRunPast", "click", function(){
+setScreen("RunPastSoldierFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("RunpastSoldierRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SoldierAid", "click", function(){
+setScreen("SoldierDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("SoldierContinue", "click", function(){
+setScreen("BluDemomanScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("DemoRunPast", "click", function(){
+setScreen("DemoRunPastFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("DemoRunPastRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("DemoAid", "click", function(){
+setScreen("DemoCallforHelpFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("DemoAidRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("DemoFight", "click", function(){
+setScreen("DemomanDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("DemomanContinue", "click", function(){
+setScreen("BluSniperScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("SniperFight", "click", function(){
+setScreen("SniperFightFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("SniperFightRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SniperAid", "click", function(){
+setScreen("SniperAidFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("SniperAidRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SniperRunPast", "click", function(){
+setScreen("SniperDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("SniperContinue", "click", function(){
+setScreen("BluSpyScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("SpyFight", "click", function(){
+setScreen("SpyFightFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("SpyFightRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SpyAid", "click", function(){
+setScreen("SpyAidFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("SpyAidRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("SpyRunPast", "click", function(){
+setScreen("SpyDown");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("SpyContinue", "click", function(){
+setScreen("BluDoubleCrossIntelScene");
+playSound("sound://category_movement/walk_loop.mp3");
+});
+onEvent("DoubleCrossGoHide", "click", function(){
+setScreen("DoubleCrossHideinRoomFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("DoubleCrossHideRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("DoubleCrossOnTopBridge", "click", function(){
+setScreen("DoubleCrossBridgeFail");
+playSound("sound://category_female_voiceover/mission_failed_female.mp3");
+});
+onEvent("DoubleCrossBridgeRestart", "click", function(){
+setScreen("startScreen");
+});
+onEvent("DoubleCrossRicketyBridge", "click", function(){
+setScreen("RicketyBridgePath");
+playSound("sound://category_female_voiceover/correct_female.mp3");
+});
+onEvent("DoubleCrossContinue", "click", function(){
+playSound("sound://category_female_voiceover/mission_completed_female.mp3");
+setScreen("SuccessScene");
+});
